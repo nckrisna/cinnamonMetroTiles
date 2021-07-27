@@ -10,19 +10,19 @@
     },
     "width": {
         "type": "entry",
-        "default": "50",
+        "default": "150",
         "description": "Width Of the Tile",
         "tooltip": "Set the Width of this desklet."
     }, 
     "height": {
         "type": "entry",
-        "default": "50",
+        "default": "150",
         "description": "Height Of the Tile",
         "tooltip": "Set the Height of this desklet."
     },  
     "borderwidth": {
         "type": "entry",
-        "default": "50",
+        "default": "5",
         "description": "Border Width",
         "tooltip": "Set the border width of this desklet."
     },  
