@@ -1,0 +1,8 @@
+{
+ "uuid": "metrophotoframe@nicknallani",
+ "name": "Metro Photo frame",
+ "description": "A photo frame desklet",
+ "icon": "folder-pictures",
+ "prevent-decorations": true
+}
+

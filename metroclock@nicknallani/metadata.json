@@ -1,0 +1,8 @@
+{
+    "uuid": "metroclock@nicknallani",
+    "name": "Clock Metro desklet",
+    "description": "A tile desklet that displays time",
+    "prevent-decorations": false,
+    "author": "nicknallani",
+    "last-edited": 1618138892
+}

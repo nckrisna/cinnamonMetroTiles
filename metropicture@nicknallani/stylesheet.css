@@ -1,0 +1,6 @@
+.tile{background-color: black;width:75px;height:75px;background-image: linear-gradient(red, yellow); }
+.tile:hover{background-color: #86b0da;width:75px;height:75px}
+.tile2{}
+.tile2:hover{background-color: #86b0da;}
+.titletext{color:#ffffff;}
+.titletext:hover{color:#ff9933;}

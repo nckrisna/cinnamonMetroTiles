@@ -1,0 +1,102 @@
+{
+    "head0": {
+        "type": "header",
+        "description": "Settings for NiCK Metro Interface"
+    },
+
+    "head1": {
+        "type": "header",
+        "description": "Tile Title"
+    },
+    
+    "tile-title": {
+        "type": "entry",
+        "default": "App 1",
+        "description": "Custom desklet Title",
+        "tooltip": "Set The title of the tile"
+    },
+    "title-color": {
+        "type": "colorchooser",
+        "default": "rgba(255,255,255)",
+        "description": "Title Color",
+        "tooltip": "Set the Title color of this desklet."
+    }, 
+    
+    "title-font": {
+        "type": "entry",
+        "default": "12",
+        "description": "Title Font Size",
+        "tooltip": "Set The Title Font Size"
+    },
+
+    "head2": {
+        "type": "header",
+        "description": "General"
+    },    
+    
+    "app-cmd": {
+        "type": "entry",
+        "default": "nemo",
+        "description": "Command To be Executed when tile is clicked",
+        "tooltip": "Command To be Executed. xdg-open file/url/link",
+        "allow-none" : false
+    },
+    "bg-color": {
+        "type": "colorchooser",
+        "default": "rgb(0,0,0)",
+        "description": "BG Color",
+        "tooltip": "Set the BG color of this desklet."
+    }, 
+    "width": {
+        "type": "entry",
+        "default": "50",
+        "description": "Width Of the Tile",
+        "tooltip": "Set the Width of this desklet."
+    }, 
+    "height": {
+        "type": "entry",
+        "default": "50",
+        "description": "Height Of the Tile",
+        "tooltip": "Set the Height of this desklet."
+    },
+    "btn-brdr-wdt": {
+        "type": "entry",
+        "default": "2",
+        "description": "Button Border Width",
+        "tooltip": "Set the border width of each of the buttons."
+    },
+
+    "btn-brdr-clr": {
+        "type": "colorchooser",
+        "default": "rgba(0, 0, 0,0)",
+        "description": "Button Border Color",
+        "tooltip": "Set the border color each of the buttons."
+    },
+    "radius": {
+        "type": "entry",
+        "default": "5",
+        "description": "Corner Radius Of the Tile",
+        "tooltip": "Set Corner Radius Of the Tile"
+    },
+    "padding": {
+        "type": "entry",
+        "default": "5",
+        "description": "Padding Of the Tile",
+        "tooltip": "Set Padding Of the Tile"
+    },
+    "icon": {
+        "type": "iconfilechooser",
+        "default": "file-manager",
+        "description": "Icon Name",
+        "tooltip": "Name of the Icon."
+    },
+    "iconsize": {
+        "type": "entry",
+        "default": "24",
+        "description": "Icon Size",
+        "tooltip": "Size Of Icon 16,24,32,48,64,128,256."
+    }
+    
+    
+
+}

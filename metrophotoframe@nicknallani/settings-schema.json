@@ -1,0 +1,112 @@
+{
+    "head1": {
+        "type": "header",
+        "description": "Settings for NiCK Metro PhotoFrame"
+    },
+    "bg-color": {
+        "type": "colorchooser",
+        "default": "rgb(0,0,0)",
+        "description": "BG Color",
+        "tooltip": "Set the BG color of this desklet."
+    }, 
+    "fwidth": {
+        "type": "entry",
+        "default": "200",
+        "description": "Width Of the Tile",
+        "tooltip": "Set the Width of this desklet."
+    }, 
+    "fheight": {
+        "type": "entry",
+        "default": "200",
+        "description": "Height Of the Tile",
+        "tooltip": "Set the Height of this desklet."
+    },
+    "btn-brdr-wdt": {
+        "type": "entry",
+        "default": "2",
+        "description": "Button Border Width",
+        "tooltip": "Set the border width of each of the buttons."
+    },
+
+    "btn-brdr-clr": {
+        "type": "colorchooser",
+        "default": "rgba(0, 0, 0,0)",
+        "description": "Button Border Color",
+        "tooltip": "Set the border color each of the buttons."
+    },
+    "radius": {
+        "type": "entry",
+        "default": "5",
+        "description": "Corner Radius Of the Tile",
+        "tooltip": "Set Corner Radius Of the Tile"
+    },
+    "padding": {
+        "type": "entry",
+        "default": "5",
+        "description": "Padding Of the Tile",
+        "tooltip": "Set Padding Of the Tile"
+    },
+    
+    "head2": {
+        "type": "header",
+        "description": "Directory and other settings"
+    },    
+    "directory": {
+        "default": " ", 
+        "type": "filechooser", 
+        "description" : "Folder",
+        "allow-none" : false,
+        "select-dir" : true
+    },
+    "shuffle": {
+        "default": true,
+        "description": "Shuffle",
+        "type" : "switch"
+    },
+    "delay": {
+        "default": 5,
+        "type": "spinbutton",
+        "min": 1,
+        "max": 3600,
+        "description" : "Delay",
+        "units" : "seconds",
+        "step": 1
+    },
+    "height": {
+        "default": 200,
+        "type": "spinbutton",
+        "min": 50,
+        "max": 1600,
+        "description" : "Height",
+        "units" : "pixels",
+        "step": 50
+    },
+    "width": {
+        "default": 300,
+        "type": "spinbutton",
+        "min": 50,
+        "max": 1600,
+        "description" : "Width",
+        "units" : "pixels",
+        "step": 50
+    },
+    "fade-delay": {
+        "default": 0.3,
+        "type": "spinbutton",
+        "min": 0.0,
+        "max": 10.0,
+        "description" : "Fade delay",
+        "step": 0.1,
+        "units": "seconds"
+    },
+    "effect": {
+        "type": "combobox",
+        "description": "Special effect",
+        "default": "",
+        "options": {
+            "None": "",
+            "Sepia": "sepia",
+            "Black and White": "black-and-white"
+        }
+    }
+}

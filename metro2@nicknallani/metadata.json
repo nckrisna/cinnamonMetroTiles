@@ -1,0 +1,12 @@
+{
+    "uuid": "metro2@nicknallani",
+    "name": "Metro2_4Tiles",
+    "description": "A Metro widget with 4 apps.",
+    "comments": "This ia a desklet that can you use to launch upto 4 apps",
+    "website": "",
+    "contributors": "Krishna Nallani nckrishna@msn.com",    
+    "version": "1.0",
+    "max-instances": "10",
+    "prevent-decorations": true,
+    "last-edited": 1587830058
+}

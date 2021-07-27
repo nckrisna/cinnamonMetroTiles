@@ -1,0 +1,11 @@
+{
+    "uuid": "metroip@nicknallani",
+    "name": "Metro IP Tile",
+    "description": "A Tile shows your IP address",
+    "author": "NiCK Nallani",
+    "prevent-decorations": false,
+    "styles":"dispay:block;width:300px;height:100px;font-size:20pt;background-color:rgb(0,0,0,0);color:#3399ff;border:1px solid red;",
+    "font-size": "20pt",
+    "url":"http://seismiccloset.com/getip.php",
+    "last-edited": 1612628134
+}

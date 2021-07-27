@@ -1,0 +1,258 @@
+{
+    "head0": {
+        "type": "header",
+        "description": "Settings for NiCK Metro Interface 2"
+    },
+
+    "head1": {
+        "type": "header",
+        "description": "General"
+    },
+    "widgetbrdr": {
+        "type": "entry",
+        "default": "2",
+        "description": "Desklet Border Width",
+        "tooltip": "Set the border width of desklet."
+    }, 
+   "widgetbrdrcolor": {
+        "type": "colorchooser",
+        "default": "rgba(0,0,0,0)",
+        "description": "Desklet Border Color",
+        "tooltip": "Set the border color of this desklet."
+    },     
+   "widgetbrdrradius": {
+        "type": "entry",
+        "default": "2",
+        "description": "Desklet Border Radius",
+        "tooltip": "Set the border radius of this desklet."
+    },     
+    "issinglerow": {
+        "type": "checkbox",
+        "default": false,
+        "description": "In Single Row",
+        "tooltip": "Will be in single row."
+    }, 
+    "issinglecol": {
+        "type": "checkbox",
+        "default": false,
+        "description": "In Single Column",
+        "tooltip": "Will be in single Column."
+    }, 
+        
+   "bg-color": {
+        "type": "colorchooser",
+        "default": "rgb(0,0,0)",
+        "description": "BG Color",
+        "tooltip": "Set the BG color of this desklet."
+    }, 
+    "width": {
+        "type": "entry",
+        "default": "50",
+        "description": "Width Of each button",
+        "tooltip": "Set the Width of each of the buttons."
+    }, 
+    "height": {
+        "type": "entry",
+        "default": "50",
+        "description": "Height Of each button",
+        "tooltip": "Set the Height of each of the buttons."
+    },
+    "btn-brdr-wdt": {
+        "type": "entry",
+        "default": "2",
+        "description": "Button Border Width",
+        "tooltip": "Set the border width of each of the buttons."
+    },
+
+    "btn-brdr-clr": {
+        "type": "colorchooser",
+        "default": "rgb(171, 163, 103)",
+        "description": "Button Border Color",
+        "tooltip": "Set the border color each of the buttons."
+    },
+    
+    
+    "type": {
+        "type": "combobox",
+        "default": "style1",
+        "description": "Desklet Style Type",
+        "tooltip": "Choose a Style Type",
+        "options" : {
+            "":"",
+            "SQUARES" : "squares",
+            "STYLE1": "style1",
+            "STYLE2": "style2",
+            "STYLESHEET":"stylesheet",
+            "":""
+        }
+    }, 
+    "radius": {
+        "type": "entry",
+        "default": "30",
+        "description": "Corner Radius Of the Buttons",
+        "tooltip": "Set Corner Radius Of the Buttons"
+    },
+    "padding": {
+        "type": "entry",
+        "default": "15",
+        "description": "Padding Of the Buttons",
+        "tooltip": "Set Padding Of the Buttons"
+    },
+    "applySS": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Apply StyleSheet (For Squares) .BtnX",
+        "tooltip": "Apply StyleSheet (.Btnx)."
+    },     
+
+    "showtitlebar": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Display Title Bar?",
+        "tooltip": "Check if You want to display Title Bar"
+    },
+    "showtitlebaricon": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Display Move Icon in Title Bar?",
+        "tooltip": "Check if You want to display Move Icon in Title Bar"
+    },
+    "titletext": {
+        "type": "entry",
+        "default": "Tile Title",
+        "description": "Title of Tiles",
+        "tooltip": "Title of the Tiles",
+        "allow-none" : false
+    },
+
+    
+    
+    
+    
+    "head2": {
+        "type": "header",
+        "description": "App-1"
+    },    
+    
+    "app-cmd-1": {
+        "type": "entry",
+        "default": "nemo",
+        "description": "Command To be Executed when tile is clicked",
+        "tooltip": "Command To be Executed. xdg-open file/url/link",
+        "allow-none" : false
+    },
+    "icon-1": {
+        "type": "iconfilechooser",
+        "default": "file-manager",
+        "description": "Icon Name",
+        "tooltip": "Name of the Icon."
+    },
+    
+    "iconsize-1": {
+        "type": "entry",
+        "default": "24",
+        "description": "Icon Size",
+        "tooltip": "Size Of Icon 16,24,32,48,64,128,256."
+    },
+    "bg-1": {
+        "type": "colorchooser",
+        "default": "#000000",
+        "description": "BG Color",
+        "tooltip": "BG Color"
+    },
+    
+    "head3": {
+        "type": "header",
+        "description": "App-2"
+    },    
+    
+    "app-cmd-2": {
+        "type": "entry",
+        "default": "nemo",
+        "description": "Command To be Executed when tile is clicked",
+        "tooltip": "Command To be Executed. xdg-open file/url/link",
+        "allow-none" : false
+    },
+    "icon-2": {
+        "type": "iconfilechooser",
+        "default": "file-manager",
+        "description": "Icon Name",
+        "tooltip": "Name of the Icon."
+    },
+    "iconsize-2": {
+        "type": "entry",
+        "default": "24",
+        "description": "Icon Size",
+        "tooltip": "Size Of Icon 16,24,32,48,64,128,256."
+    },
+    "bg-2": {
+        "type": "colorchooser",
+        "default": "#000000",
+        "description": "BG Color",
+        "tooltip": "BG Color"
+    },
+    
+    "head4": {
+        "type": "header",
+        "description": "App-3"
+    },    
+    
+    "app-cmd-3": {
+        "type": "entry",
+        "default": "nemo",
+        "description": "Command To be Executed when tile is clicked",
+        "tooltip": "Command To be Executed. xdg-open file/url/link",
+        "allow-none" : false
+    },
+    "icon-3": {
+        "type": "iconfilechooser",
+        "default": "file-manager",
+        "description": "Icon Name",
+        "tooltip": "Name of the Icon."
+    },
+    "iconsize-3": {
+        "type": "entry",
+        "default": "24",
+        "description": "Icon Size",
+        "tooltip": "Size Of Icon 16,24,32,48,64,128,256."
+    },
+    "bg-3": {
+        "type": "colorchooser",
+        "default": "#000000",
+        "description": "BG Color",
+        "tooltip": "BG Color"
+    },
+    "head5": {
+        "type": "header",
+        "description": "App-4"
+    },    
+    
+    "app-cmd-4": {
+        "type": "entry",
+        "default": "nemo",
+        "description": "Command To be Executed when tile is clicked",
+        "tooltip": "Command To be Executed. xdg-open file/url/link",
+        "allow-none" : false
+    },
+    "icon-4": {
+        "type": "iconfilechooser",
+        "default": "file-manager",
+        "description": "Icon Name",
+        "tooltip": "Name of the Icon."
+    },
+    "iconsize-4": {
+        "type": "entry",
+        "default": "24",
+        "description": "Icon Size",
+        "tooltip": "Size Of Icon 16,24,32,48,64,128,256."
+    },
+    "bg-4": {
+        "type": "colorchooser",
+        "default": "#000000",
+        "description": "BG Color",
+        "tooltip": "BG Color"
+    }
+    
+    
+
+}

@@ -1,0 +1,63 @@
+{
+    "head0": {
+        "type": "header",
+        "description": "Settings for NiCK Metro Interface"
+    },
+
+    "head1": {
+        "type": "header",
+        "description": "Tile Title"
+    },
+    "width": {
+        "type": "entry",
+        "default": "50",
+        "description": "Width Of the Tile",
+        "tooltip": "Set the Width of this desklet."
+    }, 
+    "height": {
+        "type": "entry",
+        "default": "50",
+        "description": "Height Of the Tile",
+        "tooltip": "Set the Height of this desklet."
+    },  
+    "borderwidth": {
+        "type": "entry",
+        "default": "50",
+        "description": "Border Width",
+        "tooltip": "Set the border width of this desklet."
+    },  
+  
+    "border-color": {
+        "type": "colorchooser",
+        "default": "rgb(0,0,0)",
+        "description": "Border Color",
+        "tooltip": "Set the Border color of this desklet."
+    }, 
+    "head2": {
+        "type": "header",
+        "description": "Tile Title"
+    },    
+    "tile-title": {
+        "type": "entry",
+        "default": "App 1",
+        "description": "Custom desklet Title",
+        "tooltip": "Set The title of the tile"
+    },
+    "title-color": {
+        "type": "colorchooser",
+        "default": "rgba(255,255,255)",
+        "description": "Title Color",
+        "tooltip": "Set the Title color of this desklet."
+    }, 
+    
+    "title-font": {
+        "type": "entry",
+        "default": "12",
+        "description": "Title Font Size",
+        "tooltip": "Set The Title Font Size"
+    }
+
+    
+    
+
+}

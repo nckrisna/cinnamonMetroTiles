@@ -1,0 +1,11 @@
+{
+
+    "last-edited": 1571682959,
+    "name": "Metro Interface Tile",
+    "description": "Metro Interface Tiles",
+    "version": "1.0",
+    "prevent-decorations": true,
+    "uuid": "metro@nicknallani",
+    "max-instances":10
+
+}

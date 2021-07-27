@@ -1,0 +1,9 @@
+{
+    "uuid": "metroanalogclock@nicknallani",
+    "max-instances": "10",
+    "description": "Metro style analog clock tile",
+    "name": "Metro Analog Clock Tile",
+    "version": "1.0",
+    "author": "nicknallani",
+    "last-edited": 1618138892
+}
